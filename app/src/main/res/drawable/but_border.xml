@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="2dp"
+        android:color="#44ff99" /> <!-- Zmień kolor na dowolny -->
+    <corners android:radius="8dp" /> <!-- Opcjonalnie: zaokrąglone rogi -->
+</shape>
