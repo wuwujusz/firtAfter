@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000022"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/guzik1"
+        android:text="Powiadomienie 1"
+        android:background="#00ffdd"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/guzik2"
+        android:text="Powiadomienie 2"
+        android:background="#ffdd33"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/guzik3"
+        android:text="Powiadomienie 3"
+        android:background="#ff00dd"
+        android:gravity="center"/>
+
+</LinearLayout>
